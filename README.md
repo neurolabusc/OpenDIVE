@@ -9,10 +9,9 @@ This is a NiiVue live demo to demonstrate one possible color mapping useful for 
 | **RGB**        | ![RGB-Trichromacy](RGBtrichromacy.png) | ![RGB-Protanopia](RGBprotanopia.png) |
 | **CYB**        | ![CYB-Trichromacy](CYBtrichromacy.png) | ![CYB-Protanopia](CYBprotanopia.png) |
 
-
 ## Usage
 
-You can run a hot-reloadable live demo
+You can run a hot-reloadable live demo:
 
 ```
 git clone git@github.com:neurolabusc/OpenDIVE.git
