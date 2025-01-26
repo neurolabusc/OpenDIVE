@@ -1,7 +1,8 @@
 import { Niivue } from '@niivue/niivue'
 async function main() {
       about.onclick = function () {
-        window.alert("Experimental diffusion tensor V1 validation (to do: assumptions regarding neurological convention, slice orientation, world space)")
+        const url = "https://github.com/neurolabusc/OpenDIVE"
+        window.open(url, "_blank")
       }
       saveBmp.onclick = function () {
         nv1.saveScene("ScreenShot.png")
