@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./niivue.css" />
+  <title>OpenDIVE</title>
+</head>
+
+<body>
+  <header>
+    <label for="modeSelect">Display:</label>
+    <select id="modeSelect">
+      <option>FA</option>
+      <option>V1</option>
+      <option selected>V1 modulated by FA</option>
+      <option>Lines</option>
+      <option>Lines modulated by FA</option>
+      <option>V1 modulated by FA (colorblind)</option>
+    </select>
+    <label for="slide">&nbsp; FAmin</label>
+    <input
+      type="range"
+      min="0"
+      max="100"
+      value="0"
+      class="slider"
+      id="slide"
+    />
+    <label for="slideX">&nbsp; FAmax</label>
+    <input
+      type="range"
+      min="0"
+      max="100"
+      value="100"
+      class="slider"
+      id="slideX"
+    />
+    <label for="check">ClipDark</label>
+    <input type="checkbox" id="check" checked />
+    <label for="checkColorDef">Color Deficiency</label>
+    <input type="checkbox" id="checkColorDef" unchecked />
+    <button id="saveBmp">Save Bitmap</button>
+    <button id="about">About</button>
+  </header>
+  <main id="canvas-container">
+    <canvas id="gl1"></canvas>
+  </main>
+  <footer id="intensity">&nbsp;</footer>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
