@@ -4,7 +4,6 @@
 
 This is a NiiVue live demo to demonstrate one possible color mapping useful for individuals with Protanopia and Deuteranopia. You can use the [Colorblindly Chrome browser plugin](https://chromewebstore.google.com/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg?hl=en) to simulate colorblindness in your web browser.
 
-
 |                | Trichromacy             | Protanopia              |
 |----------------|-------------------------|-------------------------|
 | **RGB**        | ![RGB-Trichromacy](RGBtrichromacy.png) | ![RGB-Protanopia](RGBprotanopia.png) |
